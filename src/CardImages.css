@@ -1,0 +1,135 @@
+.pixel-wallet{
+    height: 58%;
+    background-image: url('https://cdn.dribbble.com/users/393931/screenshots/6741345/gocash_dribbble_2_2x.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.pixel-wallet h2{
+    font-size: 30px;
+    font-family: 'oxygen';
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.googlemap{
+    height: 50%;
+    width: 380px;
+    background-image: url('https://cdn.dribbble.com/users/335692/screenshots/3761552/dribble.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.googlemap h2{
+    font-size: 30px;
+    font-family: 'oxygen';
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px rgb(97, 97, 97);
+}
+
+.lyrical-genius{
+    height: 50%;
+    background-image: url('https://cdn.dribbble.com/users/146798/screenshots/1851691/music.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.lyrical-genius h2{
+    font-size: 30px;
+    font-family: 'oxygen';
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+
+.calculator{
+    height: 58%;
+    /* width: 170%; */
+    background-image: url('https://cdn.dribbble.com/users/4950/screenshots/961102/calculator-logo-icon-_2x.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.calculator h2{
+    font-size: 30px;
+    font-family: 'oxygen';
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1.5px black;
+}
+
+/* .mario-pest{
+    height: 200px;
+    background-image: url('https://www.brendan-lane.com/img/wallpaper-mario/wallpaper-mario-poster-mario.png');
+    background-position: center;
+    background-size: cover;
+}
+.mario-pest h2{
+    font-size: 30px;
+    font-family: 'oxygen';
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+} */
+
+/* .html-calculator{
+    height: 200px;
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Vv03xyNwg/calculator-flat-icon_sewouucwl_thumbnail-full05.png ');
+    background-position: center;
+    background-size: cover;
+}
+.html-calculator h2{
+    font-size: 30px;
+    font-family: 'oxygen';
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px rgb(92, 187, 241);
+} */
+
+.business-time{
+    height: 58%;
+    background-image: url('https://cdn.dribbble.com/users/134903/screenshots/5689697/pin-stripes_dribbble.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.business-time h2{
+    align-content: center;
+    font-size: 30px;
+    font-family: 'oxygen';
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px  rgb(85, 84, 84);
+    
+}
+
+.colossal-rpg{
+    height: 45.3%;
+    background-image: url('https://pbs.twimg.com/tweet_video_thumb/DyMI5XBX4AIRE2b.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.colossal-rpg h2{
+    font-size: 30px;
+    font-family: 'oxygen';
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px rgb(77, 77, 77);
+}
+
+/* .todo-list{
+    height: 200px;
+    background-image: url('https://media.wired.com/photos/5ae0d5ae3f3b183561144216/master/pass/google-tasks.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.todo-list h2{
+    font-size: 30px;
+    font-family: 'oxygen';
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px rgb(77, 77, 77);
+} */

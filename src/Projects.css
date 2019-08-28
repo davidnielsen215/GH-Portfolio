@@ -1,0 +1,83 @@
+
+.projects-grid{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: auto;
+    margin: auto;
+    /* height: 100vh; */
+}
+.project-card{
+    height: 60vh;
+}
+
+.alignment{
+    transition: 0.5s;
+    margin-top: 5vh;
+    width: 15vw;
+    justify-content: space-between;
+}
+.alignment:hover{
+    transition: 0.8s;
+    width: 25vw;
+    height: 60vh;
+}
+.project-card:hover{
+    /* transition: 0.2s; */
+    margin-top: -1vh;
+    height: 62vh;
+    width: 25vw;
+}
+
+.project-style{
+    height: auto;
+    background-image: url('https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-style h2{
+    color: white
+}
+
+.projects-color{
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to right, #5B86E5, rgb(9, 223, 205));  
+    background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+    height: 150vh;
+}
+
+
+@media screen and (max-width: 1024px){
+    .projects-color{
+        height: auto;
+    }
+    #pxlwallet{
+        margin-top: 5vh;
+    }
+    .projects-grid{
+        display: block;
+        /* margin: none; */
+        /* width: 15vw; */
+        /* height: 100%; */
+    }
+    .project-card{
+        width: auto;
+        margin: auto;
+        margin-bottom: 15%;
+    }
+    .alignment{
+        width: auto;
+        justify-content: space-between;
+    }
+    .category-tab{
+        margin-top: 0;
+        height: 10px;
+    }
+    .top-fill{
+    height: 7%;
+    margin-top: 0px;
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to right, #5B86E5, rgb(9, 223, 205));  
+    background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+    }
+}

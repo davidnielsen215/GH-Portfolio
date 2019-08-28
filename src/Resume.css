@@ -1,0 +1,108 @@
+
+.resume{
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to right, #5B86E5, rgb(9, 223, 205));  
+    background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+    height: 125vh;
+}
+
+.banner-text1{
+    background-color: black;
+    width: 50%;
+    height: 115vh;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 10px;
+    align-items: center;    
+}
+
+.resume-img{
+    padding-top: 2%;
+    margin: auto;
+    height: 100vh;
+    display: inherit;
+}
+.home-btn{
+    color: white;
+    width: 30vw;
+    height: 30px;
+    margin: auto;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid white;
+    margin-top: 5%;
+    padding-top: none;
+    text-transform: uppercase;
+    align-items: center;
+    text-decoration: none;
+}
+.home-btn:hover{
+    color: black;
+    background-color: white;
+    transition: .5s;
+}
+
+@media screen and (max-width: 1024px){
+    .resume{
+        padding-top: 10%;
+    }
+    .banner-text1{
+        background-color: black;
+        width: auto;
+        height: 94vh;
+        margin: auto;
+        border-radius: 15px;
+        padding-top: 5%;
+        align-items: center;    
+        padding-top: 2%;
+    }
+    .resume-img{
+        margin: auto;
+        height: 90vh;
+        width: auto;
+        display: inherit;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .resume{
+        padding-top: 5%;
+        height: 99vh;
+    }
+    .banner-text1{
+        background-color: black;
+        width: auto;
+        height: 70vh;
+        margin: auto;
+        border-radius: 15px;
+        /* padding-top: 55%; */
+        align-items: center;    
+        margin-top: 15%;
+    }
+    .resume-img{
+        margin: auto;
+        height: auto;
+        width: 98vw;
+        display: inherit;
+    }
+    .home-btn{
+        color: white;
+        width: 30vw;
+        height: 30px;
+        margin: auto;
+        font-size: 15px;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 2px solid white;
+        margin-top: 7%;
+        padding-top: .3em;
+        text-transform: uppercase;
+        align-items: center;
+        text-decoration: none;
+    }
+}

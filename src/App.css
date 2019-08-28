@@ -1,0 +1,374 @@
+
+ .header-color1{
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to right, #5B86E5, rgb(9, 223, 205));  
+    background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+}
+
+.landing-grid {
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to right, #5B86E5,rgb(9, 223, 141));  
+    background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+    text-align: center;
+    width: 100%;
+    height: 90.2vh;
+}
+
+.landing-image {
+    height: 200px;
+    width: auto;
+    margin-top: 1%;
+    border-radius: 50%;
+}
+
+.banner-text{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    padding-bottom: 3%;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white; 
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 3%;
+}
+
+.pro-btn{
+    color: white;
+    width: auto;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 4vh;
+    border: 2px solid white;
+    padding: .5em;
+    text-transform: uppercase;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    transition: 1s all ease;
+}
+
+.pro-btn:hover{
+    color: white;
+    background: black;
+    transition: .5s;
+    /* border: 2px solid black; */
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}
+
+.fa{
+    width: 10%;
+    height: 10%;
+    padding: 15px;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+    
+.fa-facebook {
+    transition: 0.3s;
+    font-size: 50px;
+    width: 50px;
+    height: auto;
+    background: #3B5998;
+    color: white;
+}   
+
+.fa-facebook:hover {
+    transition: 0.3s;
+    font-size: 50px;
+    width: 50px;
+    background: rgb(37, 65, 124);
+    color: white;
+} 
+
+.fa-github {
+    transition: 0.3s;
+    font-size: 50px;
+    width: 50px;
+    height: auto;
+    background: #43a319;;
+    color: white;
+}  
+.fa-github:hover {
+    transition: 0.3s;
+    font-size: 50px;
+    width: 50px;
+    height: auto;
+    background: #317e10;;
+    color: white;
+}  
+.fa-linkedin{
+    transition: 0.3s;
+    font-size: 50px;
+    width: 50px;
+    height: auto;
+    background: #4875B4;
+    color: white;
+}
+.fa-linkedin:hover{
+    transition: 0.3s;
+    font-size: 50px;
+    width: 50px;
+    height: auto;
+    background: rgb(53, 89, 139);
+    color: white;
+}
+
+.fa-instagram{
+    transition: 0.3s;
+    font-size: 50px;
+    width: 50px;
+    height: auto;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+}
+.fa-instagram:hover{
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+.fa-twitter{
+    transition: 0.3s;
+    font-size: 50px;
+    width: 50px;
+    height: auto;
+    background: #00aced;
+    color: white;
+}
+.fa-twitter:hover{
+    transition: 0.3s;
+    font-size: 50px;
+    width: 50px;
+    height: auto;
+    background: #0094ca;
+    color: white;
+}
+
+/* ipad pro */
+@media screen and (max-width: 1025px){
+
+.landing-grid {
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to right, #5B86E5,rgb(9, 223, 141));  
+    background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    height: 30vh;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-right: 5%;
+}
+
+.social-links {
+    flex-wrap: wrap;
+    width: 90%;
+    height: 30%;
+    margin: none;
+    padding-top: 15px;
+}
+}
+/* ipad */
+@media screen and (max-width: 770px){
+    .landing-grid {
+        background: #36D1DC; 
+        background: -webkit-linear-gradient(to right, #5B86E5,rgb(9, 223, 141));  
+        background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+        width: 100%;
+        height: 120vh;
+    }
+
+    .banner-text{
+        background-color: black;
+        opacity: .8;
+        width: 75%;
+        height: 40vh;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding-right: 5%;
+    }
+    .social-links {
+        flex-wrap: wrap;
+        width: 90%;
+        height: 30%;
+        margin: none;
+        padding-top: 15px;
+    }
+    
+}
+
+/* iphone PLUS */
+@media screen and (max-width: 500px){
+
+    .landing-image {
+        padding: 5%;
+        height: 160px;
+        width: auto;
+        margin-top: 6%;
+        border-radius: 50%;
+    }
+    .landing-grid {
+        background: #36D1DC; 
+        background: -webkit-linear-gradient(to right, #5B86E5,rgb(9, 223, 141));  
+        background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+        width: 100%;
+        height: 150vh;
+    }
+
+    .banner-text{
+        background-color: black;
+        opacity: .8;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding-right: 5%;
+    }
+    .social-links {
+        flex-wrap: wrap;
+        width: 90%;
+        height: 30%;
+        margin: none;
+        padding-top: 15px;
+    }
+}
+
+/* iphone X and Iphone 6/7/8 */
+@media screen and (max-width: 375px) {
+    .landing-grid {
+        background: #36D1DC; 
+        background: -webkit-linear-gradient(to right, #5B86E5,rgb(9, 223, 141));  
+        background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+        text-align: center;
+        width: auto;
+        height: 98vh;
+    }
+
+    .landing-image {
+        height: 150px;
+        width: auto;
+        margin-top: 2%;
+        border-radius: 50%;
+    }
+    /* .banner-text{
+        background-color: black;
+        opacity: .8;
+        width: 75%;
+        height: 80%;
+        margin: none;
+        border-radius: 20px;
+        padding: none;
+        margin-top: 1vh;
+        padding-bottom: none;
+    } */
+
+    .banner-text{
+        background-color: black;
+        opacity: .8;
+        width: 87%;
+        height: auto;
+        margin: none;
+        margin-right: 4%;
+        border-radius: none;
+        /* padding-left: none; */
+        margin-top: 0vh;
+        padding-bottom: none;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: white; 
+    }
+
+
+    .social-links {
+        flex-wrap: wrap;
+        width: 89%;
+        height: 30%;
+        margin: none;
+        padding-top: 15px;
+    }
+
+    .fa-facebook {
+        font-size: 40px;
+        width: 40px;
+        height: auto;
+        background: #3B5998;
+        color: white;
+    }   
+    
+    .fa-github {
+        align-self: flex-start;
+        font-size: 40px;
+        width: 40px;
+        height: auto;
+        background: #43a319;;
+        color: white;
+    }  
+    
+    .fa-linkedin{
+        font-size: 40px;
+        width: 40px;
+        height: auto;
+        background: #4875B4;
+        color: white;
+    }
+    
+    .fa-instagram{
+        font-size: 40px;
+        width: 40px;
+        height: auto;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        color: white;
+    }
+    
+    .fa-twitter{
+        font-size: 40px;
+        width: 40px;
+        height: auto;
+        background: #00aced;
+        color: white;
+    }
+    
+}
+
+
+

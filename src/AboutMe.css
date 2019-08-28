@@ -1,0 +1,6 @@
+.aboutMe{
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to right, #5B86E5, rgb(9, 223, 205));  
+    background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
+    height: 100vh;
+}
