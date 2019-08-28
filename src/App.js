@@ -17,7 +17,7 @@ class App extends Component {
         return (
             <div className="demo-big-content">
     <Layout>
-        <Header className={this.state.home} title="DAVID NIELSEN" scroll>
+        <Header className={this.state.home} scroll>
             <Navigation className="navbar">
                 <Link to="/Resume">RESUME</Link>
                 {/* <Link to="/AboutMe">About Me</Link> */}

@@ -8,27 +8,19 @@ import { Grid, Cell } from 'react-mdl'
 class Contact extends Component {
     
     render(){
-        // const image = require('./images/IMG_5794.jpeg')
         const image1 = require('./images/IMG_5032.jpeg')
-        // const image2 = require('./images/IMG_5916 2.JPG')
         return(
-            <div >
+            <div>
                 <Grid className="contact-grid">
                     <Cell col={12}>
-                        {/* <img 
-                        src={image1}
-                        alt="avatar"
-                        className="contact-image"
-                        /> */}
+                       
                     <div className="contact-text">
-                        <h1>Contact Info</h1>
-                        <hr/>
-                    
+                        <h1>Contact Info</h1>                    
                         
                         
                         <h3 className='phone'>(575) 997-7631 </h3>
                         <h3 >davidnielsen215@gmail.com</h3>
-                        <Link to='/' className='pro-btn'>HOME</Link>
+                        <Link to='/' className='pro-btn2'>Home</Link>
                         <div className="social-links">
                             
                             {/* facebook */}
@@ -63,10 +55,5 @@ class Contact extends Component {
         )
     }
 }
-//style={{paddingLeft: '30px', fontSize: '35px', fontFamily: 'Anton'}}
-//style={{paddingLeft: '57px', paddingBottom: '50px'}}
-
-//style={{fontSize: '30px', fontFamily: 'Anton'}}
-//style={{paddingLeft: '20px', paddingBottom: '50px'}} aria-hidden='true'
 
 export default Contact
