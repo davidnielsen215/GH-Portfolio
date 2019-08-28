@@ -1,16 +1,11 @@
+
 .contact-grid{
     background: #36D1DC; 
     background: -webkit-linear-gradient(to right, #5B86E5,rgb(9, 223, 141));  
     background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
     text-align: center;
     width: auto;
-    height: 100vh;
-}
-.contact-image{
-    width: 200px;
-    height: 200px;
-    margin-top: 1%;
-    border-radius: 50%;
+    height: auto;
 }
 
 .contact-text{
@@ -44,25 +39,26 @@
     margin: none;
 }
 
-.pro-btn{
+.pro-btn2{
     color: white;
-    width: auto;
-    height: 30px;
+    width: 10vw;
+    height: 2vh;
     font-size: 15px;
-    text-align: center;
+    justify-content: space-evenly;
+    /* text-align: center; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 4vh;
     border: 2px solid white;
     padding: .5em;
     text-transform: uppercase;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: inline-flex;
     align-items: center;
     text-decoration: none;
     transition: 1s all ease;
 }
 
-.pro-btn:hover{
+.pro-btn2:hover{
     color: black;
     background-color: white;
     transition: .5s;
@@ -280,15 +276,15 @@
         color: white; 
     }
 
-    .social-links {
+    /* .social-links {
         flex-wrap: wrap;
         width: 89%;
         height: 30%;
         margin: none;
         padding-top: 15px;
-    }
+    } */
 
-    .fa-facebook {
+    /* .fa-facebook {
         font-size: 40px;
         width: 40px;
         height: auto;
@@ -327,6 +323,6 @@
         height: auto;
         background: #00aced;
         color: white;
-    }
+    } */
     
 }

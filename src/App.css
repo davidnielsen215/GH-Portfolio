@@ -10,8 +10,8 @@
     background: -webkit-linear-gradient(to right, #5B86E5,rgb(9, 223, 141));  
     background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
     text-align: center;
-    width: 100%;
-    height: 90.2vh;
+    width: 100vw;
+    height: 105vh;
 }
 
 .landing-image {
@@ -33,15 +33,33 @@
     padding-bottom: 3%;
 }
 
+.banner-text:hover {
+    transition: .8s;
+    opacity: 1;
+}
+.banner-text3:hover {
+    transition: .4s;
+    background-color: black;
+    opacity: 1; 
+}
+.banner-text2:hover {
+    background-image: url("https://media1.giphy.com/media/KHJfLcRof6nrq/source.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+    background-color: black;
+    opacity: 1; 
+}
 .banner-text h1 {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
     color: white; 
 }
 
 .banner-text hr {
-    border-top: 5px dotted white;
-    width: 50%;
+    border-top: 3px dotted white;
+    width: 70%;
     margin: auto;
 }
 
@@ -51,18 +69,61 @@
     padding: 3%;
 }
 
+.banner-text2{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-bottom: none;
+}
+
+.banner-text2 h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white; 
+}
+
+.banner-text2 hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text2 p{
+    color: white;
+    font-size: 20px;
+    padding: 3%;
+}
+.banner-text3{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-bottom: none;
+}
 .pro-btn{
     color: white;
-    width: auto;
-    height: 30px;
+    width: 10vw;
+    height: 2vh;
     font-size: 15px;
-    text-align: center;
+    justify-content: space-evenly;
+    /* text-align: center; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
     border: 2px solid white;
     padding: .5em;
     text-transform: uppercase;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: inline-flex;
     align-items: center;
     text-decoration: none;
@@ -70,10 +131,22 @@
 }
 
 .pro-btn:hover{
-    color: white;
-    background: black;
-    transition: .5s;
-    /* border: 2px solid black; */
+    background-image: url("https://cdn.dribbble.com/users/289910/screenshots/1714369/cortanagif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15vw;
+    height: 4vh;
+    transition: .4s;
+    color:white;
+}
+.pro-btn:active{
+    background-image: none;
+    background-color: white;
+    width: 45vw;
+    height: 2vh;
+    transition: .2s;
+    color:black;
 }
 
 .social-links {
@@ -183,6 +256,10 @@
     width: 100%;
     height: 100vh;
 }
+.pro-btn{
+    width: 40vw;
+    height: 5vh;
+}
 
 .banner-text {
     background-color: black;
@@ -195,13 +272,7 @@
     padding-right: 5%;
 }
 
-.social-links {
-    flex-wrap: wrap;
-    width: 90%;
-    height: 30%;
-    margin: none;
-    padding-top: 15px;
-}
+
 }
 /* ipad */
 @media screen and (max-width: 770px){
@@ -247,8 +318,12 @@
         background: #36D1DC; 
         background: -webkit-linear-gradient(to right, #5B86E5,rgb(9, 223, 141));  
         background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
-        width: 100%;
-        height: 150vh;
+        width: auto;
+        height: auto;
+    }
+    .pro-btn{
+        width: 50vw;
+        height: 5vh;
     }
 
     .banner-text{
@@ -260,6 +335,11 @@
         border-radius: 10px;
         margin-top: 20px;
         padding-right: 5%;
+    }
+
+    .banner-text3 i{
+        font-size: 30px;
+        width:30px;
     }
     .social-links {
         flex-wrap: wrap;
@@ -278,56 +358,69 @@
         background: linear-gradient(to right, #5B86E5, rgb(9, 223, 205)); 
         text-align: center;
         width: auto;
-        height: 98vh;
+        height: 110vh;
     }
 
-    .landing-image {
+    /* .landing-image {
         height: 150px;
         width: auto;
         margin-top: 2%;
         border-radius: 50%;
-    }
-    /* .banner-text{
-        background-color: black;
-        opacity: .8;
-        width: 75%;
-        height: 80%;
-        margin: none;
-        border-radius: 20px;
-        padding: none;
-        margin-top: 1vh;
-        padding-bottom: none;
     } */
+    .pro-btn{
+        width: 40vw;
+        height: 5vh;
+    }
 
     .banner-text{
         background-color: black;
         opacity: .8;
-        width: 87%;
+        width: 75%;
         height: auto;
-        margin: none;
-        margin-right: 4%;
+        margin: auto;
         border-radius: none;
-        /* padding-left: none; */
         margin-top: 0vh;
         padding-bottom: none;
     }
 
+    .banner-text2{
+        background-color: black;
+        opacity: .8;
+        width: 75%;
+        height: auto;
+        margin: auto;
+        border-radius: none;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+    }
+    .banner-text3{
+        background-color: black;
+        opacity: .8;
+        width: 85%;
+        height: auto;
+        margin: auto;
+        border-radius: none;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+    }
+    .banner-text3 i{
+        font-size: 30px;
+        width:30px;
+    }
+
     .banner-text h1 {
+        font-size: 35px;
+        font-weight: bold;
+        color: white; 
+    }
+
+    .banner-text2 h1 {
         font-size: 30px;
         font-weight: bold;
         color: white; 
     }
 
-
-    .social-links {
-        flex-wrap: wrap;
-        width: 89%;
-        height: 30%;
-        margin: none;
-        padding-top: 15px;
-    }
-
-    .fa-facebook {
+     .fa-facebook {
         font-size: 40px;
         width: 40px;
         height: auto;
@@ -337,8 +430,8 @@
     
     .fa-github {
         align-self: flex-start;
-        font-size: 40px;
-        width: 40px;
+        font-size: 30px;
+        width: 30px;
         height: auto;
         background: #43a319;;
         color: white;

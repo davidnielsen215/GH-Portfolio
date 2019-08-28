@@ -6,24 +6,28 @@ import './Projects.css'
 
 class LandingPage extends Component {
     render(){
-        const image = require('./images/IMG_0536.jpg')
-        // const image1 = require('./images/IMG_5032.jpeg')
-        // const image2 = require('./images/IMG_5787.jpg')
+        // const image = require('./images/IMG_0536.jpg')
         
         return(
-            <div >
+            <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img 
+                        <div className='banner-text2'>
+                            <h1>DAVID NIELSEN</h1>
+                        </div>
+                        {/* <img 
                         src={image}
                         alt="avatar"
                         className="landing-image"
-                        />
+                        /> */}
                     <div className="banner-text">
                         <h1>Full Stack Web Developer</h1>
                         <hr/>
-                        <p>HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB | Axios | Bcrypt | Bootstrap </p>
+                        <p>HTML | CSS | JavaScript | JSX | React | NodeJS | Express | MongoDB | Axios | Bcrypt | Bootstrap </p>
                         <Link to='/Projects' className='pro-btn'>view projects</Link>
+                        
+                    </div>
+                        <div className='banner-text3'>
                         <div className="social-links">
                             
                             {/* facebook */}
@@ -51,7 +55,7 @@ class LandingPage extends Component {
                                 <i className="fa fa-twitter" aria-hidden="true" />
                             </a>
                         </div>
-                    </div>
+                        </div>
                     </Cell>
                 </Grid>
             </div>
